@@ -11,5 +11,4 @@ phases:
       - make test
   post_build:
     commands:
-      - aws s3 sync --delete public s3://dukefeb1
       - echo Testing completed `date`
